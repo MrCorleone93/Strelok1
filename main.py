@@ -9,7 +9,7 @@ elif num2 < num1 < num3:
     print (f'\n{num2}: min')
 elif num3 < num1 < num2:
     print (f'\n{num3}: min')
-elif num1 > num2 < num3:
+if num1 > num2 < num3:
     print (f'\n{num1}:s')
 elif num1 > num3 < num2:
     print (f'\n{num1}:s')
