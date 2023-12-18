@@ -1,1 +1,5 @@
-print('initial commit 1')
+num1 = int(input('Ведіть перше число:'))
+num2 = int(input('Ведіть друге число:'))
+print('Ведіть дію:\n1:+\n2:-\n3:*\n4:/\n5:**')
+if
+
