@@ -1,4 +1,4 @@
-# Завдання № 1 Варіант № А
+# Завдання № 1 v1
 
 
 # try:
@@ -25,3 +25,29 @@
 #     print(f'\tДавай друже ще раз тільки цифрами!!!\n {ValueError}')
 # finally:
 #     print("Goodbye!")
+
+# v2
+# try:
+#     num1 = int(input('Enter a number: '))
+#     if num1<=0 or num1>=7:
+#         print(f'Ведіть цифрами від 1 до 7! \n{num1}???')
+#     match num1:
+#         case 1:
+#             print('Понеділок')
+#         case 2:
+#             print('Вівторок')
+#         case 3:
+#             print('Середа')
+#         case 4:
+#             print('Четверг')
+#         case 5:
+#             print('П ятниця')
+#         case 6:
+#             print('Субота')
+#         case 7:
+#             print('Неділя')
+# except ValueError as erorr:
+#     print(f'Некоректний тип даних! \n{erorr}???')
+# print('\n\nend!')
+
+# Завдання №2
