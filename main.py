@@ -49,5 +49,3 @@
 # except ValueError as erorr:
 #     print(f'Некоректний тип даних! \n{erorr}???')
 # print('\n\nend!')
-
-# Завдання №2
