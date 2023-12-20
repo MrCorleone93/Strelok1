@@ -1,38 +1,51 @@
-# Завдання №1
-
-# num1 = int(input("Ведіть перше число від 0 до 10:"))
-# num2 = int(input("Ведіть друге число від 0 до 10:"))
-# num3 = int(input("Ведіть трете число від 0 до 10:"))
-# if 1 <= num1 <= 10 and 1 <= num2 <= 10 and 1 <= num3 <= 10:
-#     user_select = int(input(f'1. max number\n2. min number\n3. avg number\n'))
-#     if user_select == 1:
-#         if (num1 >= num2) and (num1 >= num3):
-#             print(f'max: {num1}')
-#         elif (num2 >= num1) and (num2 >= num3):
-#             print(f'max: {num2}')
-#         elif (num3 >= num1) and (num3 >= num2):
-#             print(f'max: {num3}')
-#     if user_select == 2:
-#         if (num1 <= num2) and (num1 <=num3):
-#             print(f'min: {num1}')
-#         elif (num2 <= num1) and (num2 <= num3):
-#             print(f'min: {num2}')
-#         elif (num3 <= num1) and (num3 <= num2):
-#             print(f'min: {num3}')
-#     if user_select == 3:
-#             result = (num1 + num2 + num3) / 2
-#             print(f'agv: {result}')
-# print('\tend!')
+# Завдання № 1 v1
 
 
-# Завданя №2
-# num1 = int(input('Ведіть кількість метрів:'))
-# if 1<=num1 and num1<=100000:
-#     select = int(input('1:Милі\n2:Ярди\n3:Дюйми\n'))
-#     if select==1:
-#         print(f'result:{num1*0.0006214}')
-#     if select==2:
-#         print(f'result:{num1*1.0936133}')
-#     if select==3:
-#         print(f'result:{num1*39.3700787}')
-#     print('\tend!')
+# try:
+#     num = int(input("Ведіть день тижня!: "))
+#     if num==1:
+#         print(f'Понеділок: {num} день!')
+#     if num==2:
+#         print(f'Вівторок: {num} день!')
+#     if num==3:
+#         print(f'Середа: {num} День!')
+#     if num==4:
+#         print(f'Четверг: {num} День!')
+#     if num==5:
+#         print(f'П,ятниця: {num} День!')
+#     if num==6:
+#         print(f'Субота: {num} День!')
+#     if num==7:
+#         print(f'Неділя: {num} Дунь!')
+#     if num<=0:
+#         print(f'Та де ти такий день знайшов?\t{num}')
+#     if num>=7:
+#         print(f'Дай боже стільки вихідних на тиждень!: {num-5}')
+# except ValueError as ValueError:
+#     print(f'\tДавай друже ще раз тільки цифрами!!!\n {ValueError}')
+# finally:
+#     print("Goodbye!")
+
+# v2
+# try:
+#     num1 = int(input('Enter a number: '))
+#     if num1<=0 or num1>=7:
+#         print(f'Ведіть цифрами від 1 до 7! \n{num1}???')
+#     match num1:
+#         case 1:
+#             print('Понеділок')
+#         case 2:
+#             print('Вівторок')
+#         case 3:
+#             print('Середа')
+#         case 4:
+#             print('Четверг')
+#         case 5:
+#             print('П ятниця')
+#         case 6:
+#             print('Субота')
+#         case 7:
+#             print('Неділя')
+# except ValueError as erorr:
+#     print(f'Некоректний тип даних! \n{erorr}???')
+# print('\n\nend!')
