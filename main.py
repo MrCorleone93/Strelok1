@@ -25,6 +25,8 @@ try:
     result=len(text)-num1
     print(f'Букв = {result}')
     print(f'Цифр = {num1}')
-except Exception as error:
+except BaseException as error:
     print(error)
+
+### Тут я не розібрався як виключити зі роботи коду подібні знаки(!!"№;%:?*,) так як код читає те як Букви!
 
