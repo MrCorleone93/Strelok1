@@ -28,3 +28,10 @@
 #             num1+=1
 # print(f"В рядку знайдено: {num1} символи!")
 
+#Завдання №3
+
+# text1=input('Ведіть текст!')
+# text2=input('Ведіть слово яке хочете замінити!')
+# text3=input('Ведіть слово яким хочете замінити!')
+# result=text1.replace(text2,text3)
+# print(result)
