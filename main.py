@@ -1,3 +1,4 @@
+
 #Завдання №1
 
 
@@ -30,7 +31,6 @@
 # print("Добуток чисел між мінімальним  та максимальним : {}"
 #       .format(sum(product_min_negativ_number_and_max_positive_number)))
 # print("Добуток чисел з кратними індексами 3 : {}".format(sum(index_3_numbers_list)))
-
 
 
 # Завдання №2
